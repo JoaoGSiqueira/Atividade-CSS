@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Show</title>
+    <script src="https://use.fontawesome.com/271587175f.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/Pet.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="img/step-logo.svg" alt="logo do site" class="logo">
+            <span>PetShow</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">INÍCIO</a></li>
+                <li><a href="#servicos">SERVIÇOS</a></li>
+                <li><a href="#">O PETSHOW</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="container_banner">
+        <div>
+            <button>AGENDE PARA SEU PET!</button>
+        </div>
+    </div>
+    <div id="servicos">
+        <h3><i class="fa fa-paw" aria-hidden="true"></i> Nossos Serviços <i class="fa fa-paw" aria-hidden="true"></i>
+        </h3>
+    </div>
+    <div id="cards">
+        <div>
+            <p>Banho</p>
+            <div><img src="img/services-shower.svg" alt="servico" class="imagens"></div>
+            <button>Saiba Mais</button>
+        </div>
+        <div>
+            <p>Tosa</p>
+            <div><img src="img/services-shower.svg" alt="servico" class="imagens"></div>
+            <button>Saiba Mais</button>
+        </div>
+        <div>
+            <p>Atendimento Veterinário</p>
+            <div><img src="img/services-vet.svg" alt="servico" class="imagens"></div>
+            <button> Saiba Mais</button>
+        </div>
+        <div>
+            <p>Dog Walk</p>
+            <div><img src="img/services-walk.svg" alt="servico" class="imagens"></div>
+            <button>Saiba Mais</button>
+        </div>
+        <div>
+            <p>Alimentação</p>
+            <div><img src="img/services-food.svg" alt="servico" class="imagens"></div>
+            <button>Saiba Mais</button>
+        </div>
+        <div>
+            <p>Loja Acessórios</p>
+            <div><img src="img/services-store.svg" alt="servico" class="imagens"></div>
+            <button>Saiba Mais</button>
+        </div>
+    </div>
+    <div id="formulario">
+        <form action=".">
+            <h3><i class="fa fa-paw" aria-hidden="true"></i> Entre em Contato <i class="fa fa-paw"
+                    aria-hidden="true"></i></h3>
+            <div class="dados">
+                <div class="input-box">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div class="input-box">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+            </div>
+            <div class="dados">
+                <div class="input-box">
+                    <label for="servico">Serviço</label>
+                    <select name="tipo" id="select_tipo">
+                        <option value="selecione">-- selecione --</option>
+                        <option value="alimentacao">Alimentação</option>
+                        <option value="veterinario">Atendimento Veterinário</option>
+                        <option value="banho">Banho</option>
+                        <option value="dogwalk">DogWalk</option>
+                        <option value="acessorios">Loja Acessórios</option>
+                        <option value="tosa">Tosa</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <label for="porte">Porte do Pet</label>
+                    <select name="porte" id="select_porte">
+                        <option value="selecione">-- selecione --</option>
+                        <option value="pequeno">Pequeno</option>
+                        <option value="medio">Médio</option>
+                        <option value="grande">Grande</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input-box">
+                <label for="infos">Informações adicionais sobre seu pet</label>
+                <textarea name="sugestao" id="area" cols="20" rows="10"></textarea>
+            </div>
+            <div id="botao">
+                <button type="reset"><i class="fa fa-paw" aria-hidden="true"></i> </button>
+            </div>
+        </form>
+    </div>
+    <div id="copyright">
+        <p>copyright© - 2020 PetShow. All rights reserved <i class="fa fa-paw" aria-hidden="true"></i></p>
+    </div>
+
+
+</body>
+
+</html>

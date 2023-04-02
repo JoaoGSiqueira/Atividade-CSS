@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+}
+
+header *{
+    display: inline-block;
+}
+
+.logo{
+    margin-left: 15px;
+    width: 50px;
+}
+
+header{
+    box-shadow: 0 0 8px 0 #676565;;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(231, 231, 231, 0.3);
+    top: 0;
+    color: white;
+    font-family:'Balsamiq Sans';
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    float: right;
+    margin-top:23px;
+    margin-right: 50px;
+    width: 30%;
+}
+
+span{
+    position: relative;
+    bottom: 15px;
+    margin-left:15px;
+}
+
+#container_banner{
+    top:0;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    height: 780px;
+    
+}
+
+
+#container_banner div{
+    margin:0;
+    text-align: center;
+    padding-top: 570px;
+}
+
+#container_banner button{
+    border:1;
+    border-radius:20px;
+    padding:15px 18px;
+    font-size:25px;
+    color:whitesmoke;
+    background-color: black;
+    border-color: white;
+    box-shadow: 0 0 8px 0;
+    font-family:'Balsamiq Sans';
+}
+
+#servicos
+{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 0;
+    font-family:'Balsamiq Sans';
+}
+
+.imagens{
+    width: 230px;
+    height: 190px;
+    margin: 0px;
+}
+
+#cards div{
+    background-color: rgb(238, 235, 235); 
+    border-radius: 20px;
+    margin:15px;
+    padding-bottom: 10px;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 150px;
+    flex-wrap: wrap;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Balsamiq Sans';
+}
+
+#cards div button{
+    color:white;
+    background-color: black;
+    padding: 10px 10px;
+    border: 1;
+    border-radius: 20px;
+    font-family: 'Balsamiq Sans';
+    font-size: 15px;
+    border-color: white;
+    box-shadow: 0 0 8px 0;
+    
+}
+
+#formulario{
+background-color: rgb(173, 171, 171);
+height: 530px;
+padding-top: 10px;
+padding-left: 15%;
+padding-right: 15%;
+}
+
+form{
+    background-color: black;
+    color:white;
+    font-family:'Balsamiq Sans';
+    border-radius: 20px;
+    padding-bottom: 13px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+h3{
+    padding-top: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+input, select, textarea{
+    border-radius: 15px;
+}
+
+.dados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.input-box{
+    display:flex;
+    flex-direction: column;
+}
+
+label[for=servico], label[for=porte], label[for=infos]{
+    padding-top:20px;
+}
+
+.input-box select{
+    width: 175px;
+}
+
+#formulario button{
+    font-size: 40px;
+    border-radius: 60px;
+    height: 60px;
+}
+
+label{
+    font-size: 15px;
+}
+
+#botao{
+    padding-top: 10px;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+}
+
+#copyright{
+    text-align: center;
+}
+
